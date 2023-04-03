@@ -8,9 +8,10 @@ Started 2018-09-08
 		<title>Home</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/topnav.css">
+		<script src="js/func.js"></script>
 	</head>
 
-	<body>
+	<body onload="resize_video()">
 
 		<div class="topnav">
 			  <a class="active" href="">Home</a>
@@ -19,9 +20,11 @@ Started 2018-09-08
 			  <!-- Add more menu sections here -->
 		</div>
 		
-		<h1>Hello there!</h1>
-		<h2>This is my personal website</h2>
-		<h2>Here you can find project that I am working on during free time</h2>
+		<h1 style="margin: 20px"> Stuff I play around. Celllife above. Above clouds video below.</h1>
+		
+		<iframe id="youtube_video" width="720" height="405"
+			src="https://www.youtube.com/embed/Vi6vQr1OVk4?controls=0">
+		</iframe>
 
 	</body>
 </html>
